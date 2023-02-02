@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF018786"
+    android:orientation="vertical"
+    tools:context=".FragmentoCosto">
+
+    <EditText
+        android:id="@+id/txtFrag2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Precio Del Producto"
+        android:inputType="number|textPersonName"
+        android:textColor="#FAFAFA"
+        android:textColorHint="#FFFFFF" />
+
+    <EditText
+        android:id="@+id/txtFrag3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Número De Productos"
+        android:inputType="number"
+        android:textColor="#FAFAFA"
+        android:textColorHint="#FFFFFF" />
+
+    <Button
+        android:id="@+id/btnFrag2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calcular" />
+
+    <Button
+        android:id="@+id/btnFrag3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Limpiar" />
+
+
+</LinearLayout>

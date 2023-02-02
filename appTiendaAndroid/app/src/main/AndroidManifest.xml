@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="dev.android.apptienda">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:name=".clases.AppTienda"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.DarkActionBar">
+        <activity
+            android:name=".BusquedasActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PagoActivity"
+            android:exported="false"
+            android:parentActivityName=".OpcionesActivity" />
+        <activity
+            android:name=".DetalleVendedorActivity"
+            android:exported="false"
+            android:parentActivityName=".VendedoresActivity" />
+        <activity
+            android:name=".DetallePedidoActivity"
+            android:exported="false"
+            android:parentActivityName=".PedidosActivity" />
+        <activity
+            android:name=".DetalleClienteActivity"
+            android:exported="false"
+            android:parentActivityName=".ClientesActivity" />
+        <activity
+            android:name=".DetalleProductoActivity"
+            android:exported="false"
+            android:parentActivityName=".ProductosActivity" />
+        <activity
+            android:name=".NuevoVendedorActivity"
+            android:exported="false"
+            android:parentActivityName=".VendedoresActivity" />
+        <activity
+            android:name=".NuevoClienteActivity"
+            android:exported="false"
+            android:parentActivityName=".ClientesActivity" />
+        <activity
+            android:name=".NuevoPedidoActivity"
+            android:exported="false"
+            android:parentActivityName=".PedidosActivity" />
+        <activity
+            android:name=".NuevoProductoActivity"
+            android:exported="false"
+            android:parentActivityName=".ProductosActivity" />
+        <activity
+            android:name=".VendedoresActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ClientesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PedidosActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ProductosActivity"
+            android:exported="false" />
+        <activity
+            android:name=".OpcionesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
